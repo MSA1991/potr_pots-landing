@@ -1,4 +1,4 @@
-#Potr-Pots page
+# Potr-Pots page
 
 Technology stack:
 - HTML<br>
