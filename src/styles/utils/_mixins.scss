@@ -26,7 +26,7 @@
 @mixin title-text {
   @extend %bebas-neue;
   color: transparent;
-  -webkit-text-stroke: 1px $c-turquoise;
+  -webkit-text-stroke: 2px $c-turquoise;
 
   & span {
     -webkit-text-stroke: initial;

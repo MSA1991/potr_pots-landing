@@ -849,36 +849,14 @@
         </div>
       </div>
     </footer>
+
     <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
     <script>
-      var swiper = new Swiper(".mySwiper", {
+      const swiper = new Swiper(".mySwiper", {
         pagination: {
           el: ".swiper-pagination",
         },
       });
-    </script>
-    <script>
-      const buttons = document.querySelectorAll('.materials__btn');
-
-      for (let i = 0; i < buttons.length; i++) {
-        buttons[i].addEventListener('click', () => {
-          const activeButtons = document.querySelectorAll('.materials__btn--active');
-
-          if (activeButtons.length > 0) {
-            for (let j = 0; j < buttons.length; j++) {
-              if (buttons[i] !== buttons[j]) {
-                buttons[j].classList.remove('materials__btn--active');
-              };
-            };
-          };
-
-          if (!buttons[i].classList.contains('materials__btn--active')) {
-            buttons[i].classList.add('materials__btn--active');
-          } else {
-            buttons[i].classList.remove('materials__btn--active');
-          };
-        });
-      };
     </script>
     <script type="text/javascript" src="scripts/main.js"></script>
   </body>
