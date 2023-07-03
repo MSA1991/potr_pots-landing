@@ -1,7 +1,6 @@
 Potr-Pots page
-<br>
-<br>
-Technology stack:
+
+Technology stack:<br>
 -HTML<br>
 -CSS/SCSS<br>
 -JS
