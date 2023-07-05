@@ -12,6 +12,10 @@
     @include tablet {
       gap: 30px;
     }
+
+    @media (orientation: landscape) {
+      transform: translateY(0);
+    }
   }
 
   &__close {
